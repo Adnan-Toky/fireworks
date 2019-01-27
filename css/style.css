@@ -1,0 +1,73 @@
+body {
+    margin:0;
+    width: 100%;
+    overflow-x: hidden;
+    background: #000;
+}
+@keyframes a{
+    0%{
+        transform:scale(1.1);
+    }
+    25%{
+        transform:scale(1.5);
+    }
+    50%{
+        transform:scale(1.1);
+    }
+    75%{
+        transform:scale(.7);
+    }
+    100%{
+        transform:scale(1.1)
+    }
+}
+
+@keyframes b{
+    0%{
+        transform:scale(1.1);
+    }
+    25%{
+        transform:scale(.7);
+    }
+    50%{
+        transform:scale(1.1);
+    }
+    75%{
+        transform:scale(1.5);
+    }
+    100%{
+        transform:scale(1.1)
+    }
+}
+
+#d{
+    background:-webkit-linear-gradient(left,rgb(252,33,83),rgb(252,142,83),rgb(42,242,17));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+    text-align:center;
+    animation:a 2s linear infinite;
+    margin:20px auto 10px;
+    z-index:500;
+}
+
+#hvd{
+    background:-webkit-linear-gradient(left,rgb(252,142,83),rgb(42,242,176),rgb(42,181,255),rgb(125,85,255),rgb(249,67,252));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Satisfy', cursive;
+    font-size:30px;
+    text-align:center;
+    animation:b 2s linear infinite;
+    z-index:500;
+}
+
+#myCanvas {
+    position:absolute;
+    top:0;
+    left:20px;
+    z-index:-100;
+}

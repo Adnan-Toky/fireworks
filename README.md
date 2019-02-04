@@ -5,7 +5,7 @@ Amazing fireworks built with __JavaScript__ & __HTML5 Canvas__.
 
 View __output__ from [GitHub Page](https://adnan-toky.github.io/fireworks)
 
-### File List
+## File List
 
 ```
 css/
